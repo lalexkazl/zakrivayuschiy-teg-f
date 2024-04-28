@@ -1,1 +1,1 @@
-git@github.com:lalexkazl/zakrivayuschiy-teg-f.git
+В этой папке будут храниться все необходимые SVG-файлы для сайта.
