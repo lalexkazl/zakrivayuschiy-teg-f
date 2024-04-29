@@ -38,7 +38,7 @@
 
 .modal {
   border: 2px solid var(--text-color);
-  padding: 25px 30px;
+  padding: 20px 30px;
   color: var(--text-color);
   font-family: var(--page-accent-font-family);
   line-height: 1.5;
@@ -71,7 +71,7 @@
 }
 
 .modal__button {
-  inline-size: 100%;
+  inline-size: 293px;
 }
 
 
@@ -234,7 +234,7 @@
 
 .card__icon-button {
   display: grid;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   padding: 0;
   background: transparent;
   transition: border-color 0.3s ease;
@@ -250,11 +250,14 @@
   border-color: var(--text-color);
 }
 
+.card__like-button{
+  inline-size: 169px;
+}
+
 .button {
   position: relative;
   z-index: 1;
-  border: 2px solid var(--text-color);
-  padding: 10px 36px;
+  border: 1px solid var(--text-color);
   font-family: var(--page-accent-font-family);
   font-size: 14px;
   text-transform: inherit;
@@ -277,8 +280,6 @@
   position: absolute;
   z-index: -1;
   background: var(--text-color);
-  inline-size: 100%;
-  block-size: 100%;
   inset: 0;
   transition: transform 0.5s ease-in-out;
   transform: scaleX(0);
@@ -305,8 +306,8 @@
 }
 
 .button__icon {
-  block-size: 22px;
-  inline-size: 22px;
+  block-size: 21px;
+  inline-size: 21px;
 }
 
 .like-icon {
@@ -347,8 +348,12 @@
     padding-bottom: 100px;
   }
   .modal {
-    padding: 28px 34px 28px 40px;
-    max-inline-size: 306px;
+    padding: 42px 30px;
+    max-inline-size: 341px;
+  }
+
+  .modal__button {
+    inline-size: 257px;
   }
 
   .button--save {
